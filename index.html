@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graddesign</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+   
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+<script defer src="project.js"></script>
+</head>
+<body>
+    <section class="Nawigacja"> 
+      <div class="navi-box"></div>
+      <div class="navi">
+        <nav class="navbar navbar-expand-sm bg-white text-dark">
+          
+  <div class="container-fluid">
+        <a class="navbar-brand" href="#"><strong>giard</strong>design</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Oferta
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Projekty</a></li>
+            <li><a class="dropdown-item" href="#">Wizualizacje</a></li>
+            <li><a class="dropdown-item" href="#">Realizacje</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="#">O firmie</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Realizacja</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kontakt</a>
+        </li>
+         <li class="nav-item">
+            <div class="input-group">
+              <button class="btn " id="searchBtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <input type="text" class="form-control d-none"
+              placeholder="Szukaj" id="searchInput">
+            </div>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+</div>
+</div>
+    </section>
+    <section id="Intro">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="d-flex"> 
+      <div class="text-box">
+        <div class="inner-text-box">
+        <h2 class="title-box">Nowoczesna aranzacja</br>Twojego ogrodu</h2>
+        <div class="inner-small-text">
+        Marka GiardDesig to wieloletnie doswiadczenie i wysoka estetyka realizacji. Oferujemy kompleksowy zakres uslug z indywidualnym podejsciem do kazdego projektu
+        </div>
+        <div class="button-group">
+          <button class="button-skontaktuj">Skontaktuj sie z nami</button>
+           <button class="button-zobacz">
+            <span class="btn-zobacz-text">Zobacz nasze realizacje</span><span class="arrow-down-button"><i class="fa-solid fa-arrow-down ml-2"></i></span></button>
+        </div>
+      </div>
+      </div>
+      <img  src="https://images.unsplash.com/photo-1612409750070-73fc2e395cb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGdhcmRlbiUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60" class="d-block w-50" alt="garden-picture">
+    </div>
+    </div>
+      <div class="carousel-item">
+      <div class="d-flex"> 
+      <div class="text-box">
+        <div class="inner-text-box">
+        <h2 class="title-box">Nowoczesna aranzacja</br>Twojego ogrodu</h2>
+        <div class="inner-small-text">
+        Marka GiardDesig to wieloletnie doswiadczenie i wysoka estetyka realizacji. Oferujemy kompleksowy zakres uslug z indywidualnym podejsciem do kazdego projektu
+        </div>
+        <div class="button-group">
+          <button class="button-skontaktuj">Skontaktuj sie z nami</button>
+          <button class="button-zobacz">
+            <span class="btn-zobacz-text">Zobacz nasze realizacje</span><span class="arrow-down-button"><i class="fa-solid fa-arrow-down ml-2"></i></span></button>
+        </div>
+      </div>
+      </div>
+      <img  src="
+https://images.unsplash.com/photo-1614755431498-0cbc3ba842db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHxnYXJkZW4lMjBkZXNpZ258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60
+" class="d-block w-50" alt="garden-picture">
+    </div>
+    </div>
+      <div class="carousel-item">
+      <div class="d-flex"> 
+      <div class="text-box">
+        <div class="inner-text-box">
+        <h2 class="title-box">Nowoczesna aranzacja</br>Twojego ogrodu</h2>
+        <div class="inner-small-text">
+        Marka GiardDesig to wieloletnie doswiadczenie i wysoka estetyka realizacji. Oferujemy kompleksowy zakres uslug z indywidualnym podejsciem do kazdego projektu
+        </div>
+        <div class="button-group">
+          <button class="button-skontaktuj">Skontaktuj sie z nami</button>
+          <button class="button-zobacz">
+            <span class="btn-zobacz-text">Zobacz nasze realizacje</span><span class="arrow-down-button"><i class="fa-solid fa-arrow-down ml-2"></i></span></button>
+        </div>
+      </div>
+      </div>
+      <img src="https://images.unsplash.com/photo-1544590795-d097c4fe8e3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGdhcmRlbiUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-50" alt="garden-picture">
+    </div>
+    </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+</div>
+    </section>
+    <section id="oferta">
+      <div class="oferta">
+       <div class="oferta-block">
+        <div class="oferta-inner-block hidden">
+        <p class="custom-ofert-title">Oferta</p>
+        <h2 class="mb-3 custom-ofert-heading">Dzialamy <span class="skewed-text">kompleksowo</span></h2>
+        <p class="custom-ofert-p">Oferujemy kompletna obsluge inwestycji terenow zielonych. Projektujemy nowoczesne ogrody przydomowe oraz rezydencjonalne. Stworzymy dla Ciebie projekt,  zwizualizujemy go i wcielimy w zycie, a na kazdym etapie posluzymy rada i wieloletnim doswiadczeniem.</p>
+        </div>
+       </div>
+       <div class="karty hidden">
+        <div class="row row-cols-1 
+        row-cols-sm-2
+        row-cols-md-3 g-5">
+          <div class="col">
+        <div class="card hidden">
+  <div class="card-body  p-4">
+    <img src="Icon.jpg" alt="pencil">
+    <h3 class="card-title pt-4 custom-heading">Projekty</h3>
+    <p class="card-text custom-p-card">Zaprojektujemy Twoj ogrod w nowoczesnym stylu i z najlepszym wykorzystaniem isniejacej przestrzeni.</p>
+    <button class="btn-dowiedz custom-btn-style">
+      <span class="btn-text custom-btn-text">Dowiedz sie wiecej</span>
+      <span><i class="fa-solid fa-arrow-right"></i></span>
+    </button>
+  </div>
+  </div>
+  </div>
+  <div class="col">
+        <div class="card hidden">
+  <div class="card-body p-4">
+    <img src="Icon-eye.jpg" alt="eye-picture">
+    <h3 class="card-title pt-4 custom-heading">Wizualizacje</h3>
+    <p class="card-text custom-p-card">Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego spaceru animowanego w technologi 3D.</p>
+    <button class="btn-dowiedz custom-btn-style">
+      <span class="btn-text custom-btn-text">Dowiedz sie wiecej</span>
+      <span><i class="fa-solid fa-arrow-right"></i></span>
+    </button>
+  </div>
+  </div>
+  </div>
+  <div class="col">
+        <div class="card hidden">
+  <div class="card-body p-4 ">
+    <img src="Icon-stars.jpg" alt="stars">
+    <h3 class="card-title pt-4 custom-heading">Realizacje</h3>
+    <p class="card-text custom-p-card">Zrealizujemy Twoje marzenie przy uzyciu najnowszych rozwiazan i zaawansowanych technologii.</p>
+    <button class=" custom-btn-style">
+      <span class="btn-text custom-btn-text">Zobacz nasze realizacje</span>
+      <span><i class="fa-solid fa-arrow-right"></i></span>
+    </button>
+  </div>
+  </div>
+  </div>
+       </div>
+      </div>
+      </div>
+    </section>
+    <section id="O-firmie">
+      <div class="O-firmie ">
+              <img class='hidden'src="oFirmie-picture.jpg" alt="garden" >
+            <div class="content"><div class="ofirmie-textbox">
+             <p>O firmie</p>
+             <h1>Tworzymy</br> z <span class="pasja">pasja</span>
+              </h1>
+             <p>Kazdy projekt to nowe wyzwanie. Dlatego nasz zespol tworza wykwalifikowani projektanci oraz architekci, ktorych zadaniem jest rozpoznanie i realizacja potrzeb kazdego Klienta. Nasza specjalizacja to przestrzenie nowoczesne, ktore charakteryzuje minimalizm, geometria i elegancka prostota. Tworzymy ogrody maloobslugowe, dostosowane do wspolczesnego trybu zycia.</p>
+             </div>
+             <button class="btn-poznaj">
+      <span class="">Poznaj nas blizej</span>
+      <span><i class="fa-solid fa-arrow-right"></i></span>
+    </button>
+          </div>
+          </div>
+    </section>
+    <section id="Realizacje">
+      <div class="Realizacje">
+         <div class="text-box">
+          <p>Realizacje</p>
+          <h1>Nasze <span class="skewed-text">projekty</span></h1>
+         </div>
+         <div class="gallery">
+          <img src="https://images.unsplash.com/photo-1558293842-c0fd3db86157?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FyZGVufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="0">
+          <img src="https://images.unsplash.com/photo-1572085313466-6710de8d7ba3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2FyZGVufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="garden-picture"  class="thumbnail" index="1">
+          <img src="https://images.unsplash.com/photo-1580600301354-0ce8faef576c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2FyZGVufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="garden-picture"  class="thumbnail" index="2">
+          <img src="https://images.unsplash.com/photo-1544727219-d2ff78f0f148?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2FyZGVufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="3">
+          <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Z2FyZGVufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="4">
+          <img src="https://images.unsplash.com/photo-1578302758063-0ef3e048ca89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="5">
+          <img src="https://images.unsplash.com/photo-1549276755-1bbd36282c6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="6">
+          <img src="https://images.unsplash.com/photo-1550948390-6eb7fa773072?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="7">
+          <img src="https://images.unsplash.com/photo-1601654253194-260e0b6984f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="8">
+          <img src="https://images.unsplash.com/photo-1623358519330-00f61d89396b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="9">
+          <img src="https://images.unsplash.com/photo-1544467168-9cf334a9ce56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="10">
+          <img src="https://images.unsplash.com/photo-1599685315640-9ceab2f58148?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="11">
+          <img src="https://images.unsplash.com/photo-1560331470-4737e8408873?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="12">
+          <img src="https://images.unsplash.com/photo-1557932937-1b5843aa7968?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="13">
+          <img src="https://plus.unsplash.com/premium_photo-1673141390230-8b4a3c3152b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="14">
+          <img src="https://images.unsplash.com/photo-1547389432-8def40fe9a27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="15">
+          <img src="https://images.unsplash.com/photo-1563714193017-5a5fb60bc02b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="16">
+          <img src="https://images.unsplash.com/photo-1611764837904-aaab5f6ab8af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="17">
+          <img src="https://plus.unsplash.com/premium_photo-1677620201172-1721b10d2cbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="18">
+          <img src="https://images.unsplash.com/photo-1597201278257-3687be27d954?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="19">
+          <img src="https://images.unsplash.com/photo-1622322894637-2b5a02a1c1e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="20">
+          <img src="https://images.unsplash.com/photo-1605684437254-344f03b1e65c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzd8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="21">
+          <img src="https://images.unsplash.com/photo-1586191454576-c94c588a8617?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzh8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="22">
+          <img src="https://images.unsplash.com/photo-1603094781627-480821c9040d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODF8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="23">
+          <img src="https://images.unsplash.com/photo-1567131249273-90a34765c19e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODN8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="24">
+          <img src="https://images.unsplash.com/photo-1596086221164-c8a4cac55e27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="25">
+          <img src="https://images.unsplash.com/photo-1625687101893-23a92791ea25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTh8fGdhcmRlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="26">
+          <img src="https://images.unsplash.com/photo-1621535884102-d13e00c76283?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAxfHxnYXJkZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="27">
+          <img src="https://images.unsplash.com/photo-1559149020-1b1e2865c19c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTEzfHxnYXJkZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="28">
+          <img src="https://images.unsplash.com/photo-1586175554766-77513ac248d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIyfHxnYXJkZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="29">
+          <img src="https://images.unsplash.com/photo-1568745619555-0a1c9591e722?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMyfHxnYXJkZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="30">
+          <img src="https://images.unsplash.com/photo-1593445398711-7d9f37b759dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM3fHxnYXJkZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="31">
+          <img src="https://images.unsplash.com/photo-1625766924307-190af32078c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQyfHxnYXJkZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="32">
+          <img src="https://images.unsplash.com/photo-1577566997011-307e150970dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ4fHxnYXJkZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="33">
+          <img src="https://images.unsplash.com/photo-1598368457390-95a84ecb87c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTUzfHxnYXJkZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="34">
+          <img src="https://images.unsplash.com/photo-1581524070124-957d29ec032f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU2fHxnYXJkZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="35">
+          <img src="https://images.unsplash.com/photo-1600714877423-8ca1e645d8ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU0fHxnYXJkZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="36">
+          <img src="https://images.unsplash.com/photo-1607529107925-04e67ae44b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYwfHxnYXJkZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="37">
+          <img src="https://images.unsplash.com/flagged/photo-1552686234-8e47d5602508?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY4fHxnYXJkZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="38">
+          <img src="https://images.unsplash.com/photo-1591384083861-213b3811d7b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg0fHxnYXJkZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="39">
+          <img src="https://images.unsplash.com/photo-1587956517146-e4c65555d3c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTk4fHxnYXJkZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="garden-picture" class="thumbnail" index="40">
+         </div>
+          <button id="rozwin">
+            <span>Rozwin</span><span class="arrow-down-button"><i class="fa-solid fa-arrow-down ml-2"></i></span></button>
+      </div>
+      <div class="popup">
+        <div class="popup-box">
+        <button class="close">Zamknij</button>
+        <img src="" alt="" class="popup-image">
+          <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+          <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+    </div>
+    </section>
+     <section id="Instagram">
+      <div class="Instagram ">
+        <div class="Instagram-box hidden">
+          <div class="Instagram-inner-box">
+          <div class="main-instagram-text"><h3>Zostanmy w kontakcie!<br><p class="no-wrap-sentence">Znajdziesz nas na <span class="skewed-text">Instagramie</span></p></h3></div>
+          <div class="text-button-area" ><p class="instagram-small-text">Sledz nasze najnowsze<br> realizacje!</p><div><button class="instagram-button">Instagram</button></div></div>
+        </div>
+        </div>
+      </div>
+     </section>
+     <section id="footer">
+      <div class="footer">
+        <div class="footer-box"><div class="top-box"><div class="top-line"><div class="top-line-left"><p><strong>giard</strong>design</p></div><div class="top-line-right"><div ><p >Daj znac, co mozemy dla Ciebie zrobic!</p></div><button>Skontaktuj sie z nami</button></div></div>
+        <hr class="line">
+        <div class="bottom-line"><div class="list-links"> 
+          <ul >
+            <li><a href="#">Kontakt</a></li>
+            <li><a  href="#">Instagram</a></li>
+            <li><a  href="#">Facebook</a></li>
+            <li><a  href="#">Linkedin</a></li>
+          </ul></div>
+        <div class="right-side">
+           <p class="number">000-000-000</p>
+           <p class="email">giarddesign@kontakt.pl</p>
+        </div></div>
+      </div>
+      <div class="bottom-box">
+      <div class="left-side">
+        <p>Prawa zastrzezone @ 2022</p>
+      </div>
+      <div class="right-side"><p>made by</p><div><img src="logo-full-light.jpg" alt="logo"></div></div>
+      </div>
+      </div>
+      </div>
+     </section>
+</body>
+</html>
